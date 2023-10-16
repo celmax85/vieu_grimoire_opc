@@ -167,7 +167,7 @@ function CheckToken(req, res, next) {
 }
 
 function ImagePath(filename) {
-    return `http://localhost:4000/images/${filename}`;
+    return `https://monvieuxgrimoireback.onrender.com/images/${filename}`;
 }
 
 
